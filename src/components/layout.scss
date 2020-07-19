@@ -1,0 +1,8 @@
+@import "../styles/variables";
+@import "~bootstrap/scss/bootstrap";
+
+body{
+    background: $secondary;
+    font-family: sans-serif;
+    color: #403E3D;
+}
