@@ -3,12 +3,12 @@ import React from "react"
 
 const Footer = ({ siteTitle }) => (
   <footer style={{ background: `white` }}>
-    <div style={{ height: `200px` }} className="container d-flex flex-column align-items-end justify-content-around py-3">
+    <div style={{ height: `250px` }} className="container d-flex flex-column align-items-end justify-content-around py-3">
       <a href="https://twitter.com/RayyanQuraishi"><img src="https://img.icons8.com/color/48/000000/twitter-circled.png"/></a>
       <a href="https://github.com/rayyanQ"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
       <a href="https://www.instagram.com/rayyanquraishi/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
     </div>
-    <div style={{ height: `150px` }} className="container d-flex align-items-end justify-content-between py-3">
+    <div style={{ height: `100px` }} className="container d-flex align-items-end justify-content-between py-3">
         <Link to="/">
             Made by Rayyan Ahmed Quraishi
         </Link>
