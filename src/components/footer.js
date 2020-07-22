@@ -17,9 +17,9 @@ const Footer = ({ siteTitle }) => (
         <Link className="pl-4">About</Link>
       </span>
     </div>
-    <a href="https://icons8.com/icon/114450/twitter-circled">Twitter Circled icon by Icons8</a>
+    {/*<a href="https://icons8.com/icon/114450/twitter-circled">Twitter Circled icon by Icons8</a>
     <a href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub icon by Icons8</a>
-    <a href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram">Instagram icon by Icons8</a>
+<a href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram">Instagram icon by Icons8</a>*/}
   </footer>
 )
 
