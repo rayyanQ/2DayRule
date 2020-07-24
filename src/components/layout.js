@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Footer from "./footer"
-import { analytics } from "./analytics.js"
 import "./layout.scss"
 
 const Layout = ({ children }) => {
@@ -20,10 +19,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* Global site tag (gtag.js) - Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43248146-3"></script>
-      { analytics.gtag('js', new Date()) }
-      { analytics.gtag('config', 'UA-43248146-3') }
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
