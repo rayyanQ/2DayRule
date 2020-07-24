@@ -21,13 +21,13 @@ const Layout = ({ children }) => {
     <>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43248146-3"></script>
-      <script>
+        {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-43248146-3');
-      </script>
+        }
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
